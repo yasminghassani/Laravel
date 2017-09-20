@@ -1,0 +1,9 @@
+1. jika belum pernah install bower, install bower terlebih dahulu melalui npm
+    $ npm install -g bower
+2. create bower.json di folder project
+    $ bower init
+3. install package di folder project ada dua cara :
+	- install package tanpa di save ke bower json
+    $bower install [nama_package]
+    - install package dengan save ke bower json
+    $bower install [nama_package] --save
