@@ -1,0 +1,20 @@
+How do I make Git ignore file mode (chmod) changes?
+
+1. $ git config --global core.filemode false
+
+If it doesn't work, do it manually
+1. $ cd [path_your_project]
+2. $ cd .git
+3. $ nano config
+4. change true to false
+	[core]
+        repositoryformatversion = 0
+        filemode = true
+    ->
+    [core]
+        repositoryformatversion = 0
+        filemode = false
+5. save file
+
+Source by stackoverflow
+https://stackoverflow.com/questions/1580596/how-do-i-make-git-ignore-file-mode-chmod-changes
