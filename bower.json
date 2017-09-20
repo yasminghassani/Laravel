@@ -1,0 +1,17 @@
+{
+  "name": "my_project",
+  "description": "",
+  "main": "",
+  "authors": [
+    "yasminlawencon <yasminpanharesi@gmail.com>"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/yasminlawencon/Laravel",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
