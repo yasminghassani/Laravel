@@ -58,4 +58,7 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 - $ bower install
 - $ cp .env.example .env
 - $ php artisan key:generate
-- Use [laravel valet] (https://laravel.com/docs/5.5/valet) for run this project 
+- Create db and configure db setting in .env
+- Open terminal and run this for migration :
+- $ php artisan migrate
+- Use [Laravel Valet](https://laravel.com/docs/5.5/valet) for run this project 
